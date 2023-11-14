@@ -1,0 +1,12 @@
+tpu-star==0.0.1-rc10
+gdown==3.12.2
+pre-commit==2.10.1
+bezier
+augmixations==0.1.2
+albumentations==0.1.12
+neptune-client==0.5.1
+pandas
+opencv-python
+psutil==5.8.0
+tqdm==4.56.2
+nltk==3.5
