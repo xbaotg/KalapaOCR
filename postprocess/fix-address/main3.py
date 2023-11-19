@@ -607,6 +607,11 @@ def main():
 
         ori_text = " ".join(label)
         ori_text = ori_text.replace("  ", " ")
+        if "Thủy" in ori_text: 
+            ori_text = ori_text.replace("Thủy","Thuỷ")
+        if "Hòa"in ori_text:
+            ori_text = ori_text.replace("Hòa","Hoà")
+            
 
         # print(ori_text)
         output.write(f"{id_query},{ori_text}\n")
